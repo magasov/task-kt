@@ -1,0 +1,140 @@
+header {
+    display: flex;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+header a:first-child {
+    color: #FF6464;
+}
+
+.home {
+    height: calc(595px - 80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.home__left {
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home__left h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.home__left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+}
+
+.home__left button {
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    cursor: pointer;
+}
+
+.post {
+    height: 400px;
+    padding: 0 150px;
+    background-color: #EDF7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.post_home {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.post__main {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+
+    padding: 24px;
+    gap: 10px;
+    
+}
+
+.post__main h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38.19px;
+}
+
+.post__flex {
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.post__main p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+}
+
+.work {
+    padding: 0 150px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+
+.work__main {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+.work__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.work__left h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.work__main img {
+    width: 246px;
+    height: 180px;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    text-align: center;
+    height: 30px;
+    width: 62px;
+    background: #142850;
+    color: #fff;
+}

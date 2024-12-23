@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+header a:last-child {
+    color: #FF6464;
+}
+
+
+
+.work {
+    padding: 0 150px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+
+.work__main {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+.work__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.work__left h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.work__main img {
+    width: 246px;
+    height: 180px;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    text-align: center;
+    height: 30px;
+    width: 62px;
+    background: #142850;
+    color: #fff;
+}
